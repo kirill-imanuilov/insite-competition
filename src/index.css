@@ -56,3 +56,19 @@
   bottom: 0;
   width: 50%;
 }
+.about-block-game-plot {
+  margin: 50px;
+}
+.about-block-game-plot-title {
+  font-family: 'Comic Sans MS';
+  font-size: 40px;
+  font-weight: bold;
+  color: #383e80;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.about-block-game-plot-content {
+  font-size: 17px;
+  color: #383e80;
+}
