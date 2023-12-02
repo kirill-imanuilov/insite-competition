@@ -50,3 +50,9 @@
 .title-block-download-button:hover {
   cursor: pointer;
 }
+.title-block-plane-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+}

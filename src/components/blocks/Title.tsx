@@ -11,6 +11,7 @@ export function Title() {
           <button className='title-block-download-button'>Загрузить</button>
         </div>
         <img className='title-block-bg-img' src='/bgs.jpg' />
+        <img className='title-block-plane-img' src='/header.jpg' />
       </div>
     </div>
   );
