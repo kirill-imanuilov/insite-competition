@@ -1,2 +1,52 @@
 .page {
+  height: 100vh;
+  font-family: 'Helvetica';
+}
+.page-content {
+  width: 100%;
+}
+.title-block {
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 16/9;
+  position: relative;
+}
+.title-block-content {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10%;
+  margin-left: 5%;
+}
+.title-block-bg-img {
+  aspect-ratio: 16/9;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+.title-block-title {
+  font-family: 'Comic Sans MS';
+  font-size: 40px;
+  font-weight: bold;
+  color: #383e80;
+}
+.title-block-subtitle {
+  font-family: 'Comic Sans MS';
+  margin-top: 40px;
+  font-weight: bold;
+  width: 70%;
+  color: #383e80;
+}
+.title-block-download-button {
+  margin-top: 20px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(#999af4, #5c83f8);
+  border-radius: 7px;
+  border: none;
+  font-size: 17px;
+  height: 40px;
+  width: 150px;
+}
+.title-block-download-button:hover {
+  cursor: pointer;
 }
