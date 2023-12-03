@@ -281,3 +281,11 @@
   margin-right: auto;
   margin-top: -5%;
 }
+.go-text {
+  font-family: 'Comic Sans MS';
+  font-size: 40px;
+  font-weight: bold;
+  color: #383e80;
+  text-align: center;
+  padding: 30px;
+}

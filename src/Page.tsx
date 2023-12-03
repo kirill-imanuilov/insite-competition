@@ -13,6 +13,9 @@ export function Page() {
         <Questions />
         <img src='/bg.jpg' />
         <News />
+        <div className='go-text'>
+          Отправляйтесь в эпическое приключение прямо сейчас
+        </div>
       </div>
     </div>
   );
