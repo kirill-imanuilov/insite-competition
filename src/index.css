@@ -56,6 +56,9 @@
   bottom: 0;
   width: 50%;
 }
+.about-block {
+  background-color: #f4f7fe;
+}
 .about-block-game-plot {
   margin: 50px;
 }
@@ -70,7 +73,7 @@
 }
 .about-block-game-plot-content {
   font-size: 17px;
-  color: #383e80;
+  color: #5b6798;
 }
 .social-networks {
   display: flex;
@@ -85,4 +88,37 @@
 .social-networks-item {
   width: 40px;
   cursor: pointer;
+}
+.about-characters {
+  display: flex;
+  justify-content: space-around;
+}
+.about-character-card {
+  width: 30%;
+}
+.about-character-card-content {
+  box-shadow: 0px 0px 10px #9fa1a6;
+  margin-left: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.about-character-card-character-name {
+  width: fit-content;
+  border: none;
+  background-color: #5d87f7;
+  padding: 15px;
+  border-radius: 15px;
+  position: absolute;
+  margin-top: 10px;
+  color: white;
+}
+.about-character-card-character-img {
+  border-top-right-radius: 10px;
+}
+.about-character-card-character-description {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  color: #353f77;
 }
