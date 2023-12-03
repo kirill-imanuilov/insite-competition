@@ -94,6 +94,7 @@
 .about-characters {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 50px;
 }
 .about-character-card {
   width: 30%;
@@ -123,4 +124,35 @@
   justify-content: center;
   padding: 25px;
   color: #353f77;
+}
+.questions-block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.questions-block-content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.questions-block-bg-img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+.questions-block-title {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-family: 'Comic Sans MS';
+  font-size: 40px;
+  font-weight: bold;
+}
+.questions-block-subtitle {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-family: 'Comic Sans MS';
+  margin-top: 15px;
+  font-weight: bold;
 }
