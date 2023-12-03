@@ -2,6 +2,7 @@ import './index.css';
 import { Title } from './components/blocks/Title';
 import { About } from './components/blocks/About';
 import { Questions } from './components/blocks/Questions';
+import { News } from './components/blocks/News';
 
 export function Page() {
   return (
@@ -11,6 +12,7 @@ export function Page() {
         <About />
         <Questions />
         <img src='/bg.jpg' />
+        <News />
       </div>
     </div>
   );
