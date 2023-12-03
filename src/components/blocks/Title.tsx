@@ -12,6 +12,11 @@ export function Title() {
         </div>
         <img className='title-block-bg-img' src='/bgs.jpg' />
         <img className='title-block-plane-img' src='/header.jpg' />
+        <div className='social-networks'>
+          <img className='social-networks-item' src='/dz.png' />
+          <img className='social-networks-item' src='/rutube.png' />
+          <img className='social-networks-item' src='/VK.png' />
+        </div>
       </div>
     </div>
   );
