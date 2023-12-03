@@ -10,6 +10,7 @@ export function Page() {
         <Title />
         <About />
         <Questions />
+        <img src='/bg.jpg' />
       </div>
     </div>
   );
